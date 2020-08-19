@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.multicom"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:5:5-65
+12-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:6:5-81
+13-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:6:22-78
+14
+15    <application
+15-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:8:5-27:19
+16        android:name="com.multicom.MainApplication"
+16-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:9:7-38
+17        android:allowBackup="false"
+17-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:13:7-34
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0] C:\Users\nsm18\.gradle\caches\transforms-2\files-2.1\4f509a65121478d6153615d7ef5b7c5f\core-1.1.0\AndroidManifest.xml:24:18-86
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:11:7-41
+20        android:label="@string/app_name"
+20-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:10:7-39
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:12:7-52
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:14:7-38
+23        <activity
+23-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:15:7-25:18
+24            android:name="com.multicom.MainActivity"
+24-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:16:9-37
+25            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+25-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:18:9-86
+26            android:label="@string/app_name"
+26-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:17:9-41
+27            android:launchMode="singleTask"
+27-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:19:9-40
+28            android:windowSoftInputMode="adjustResize" >
+28-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:20:9-51
+29            <intent-filter>
+29-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:21:9-24:25
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:22:13-65
+30-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:22:21-62
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:23:13-73
+32-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:23:23-70
+33            </intent-filter>
+34        </activity>
+35        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+35-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:26:7-84
+35-->C:\Users\nsm18\Multicom\android\app\src\main\AndroidManifest.xml:26:17-81
+36
+37        <provider
+37-->[:react-native-image-picker] C:\Users\nsm18\Multicom\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:9-18:20
+38            android:name="com.imagepicker.FileProvider"
+38-->[:react-native-image-picker] C:\Users\nsm18\Multicom\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:13-56
+39            android:authorities="com.multicom.provider"
+39-->[:react-native-image-picker] C:\Users\nsm18\Multicom\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:12:13-60
+40            android:exported="false"
+40-->[:react-native-image-picker] C:\Users\nsm18\Multicom\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:13:13-37
+41            android:grantUriPermissions="true" >
+41-->[:react-native-image-picker] C:\Users\nsm18\Multicom\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:14:13-47
+42            <meta-data
+42-->[:react-native-image-picker] C:\Users\nsm18\Multicom\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:15:13-17:58
+43                android:name="android.support.FILE_PROVIDER_PATHS"
+43-->[:react-native-image-picker] C:\Users\nsm18\Multicom\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:16:17-67
+44                android:resource="@xml/provider_paths" />
+44-->[:react-native-image-picker] C:\Users\nsm18\Multicom\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\release\AndroidManifest.xml:17:17-55
+45        </provider>
+46    </application>
+47
+48</manifest>

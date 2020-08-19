@@ -1,0 +1,23 @@
+{
+    "data": [{
+            "id": 1,
+            "category": "handphone"
+        },
+        {
+            "id": 2,
+            "category": "laptop"
+        },
+        {
+            "id": 3,
+            "category": "komputer"
+        },
+        {
+            "id": 4,
+            "category": "printer"
+        },
+        {
+            "id": 5,
+            "category": "tablet"
+        }
+    ]
+}
